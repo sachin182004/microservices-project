@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1769752570,,"wq"
+|2,0,1769754165,,"wq"
 :q!
 |2,0,1769750500,,"q!"
 
@@ -31,34 +31,124 @@
 |3,1,1,1,2,0,1769750493,"      - name: product","        image: sachin/product-service"
 
 # File marks:
-'0  1  0  ~/Jenkinsfile
-|4,48,1,0,1769752570,"~/Jenkinsfile"
-'1  20  0  ~/k8s/product-deploy.yaml
-|4,49,20,0,1769750683,"~/k8s/product-deploy.yaml"
-'2  12  0  ~/k8s/user-deploy.yaml
-|4,50,12,0,1769750643,"~/k8s/user-deploy.yaml"
-'3  1  153  ~/k8s/user-deploy.yaml
-|4,51,1,153,1769750542,"~/k8s/user-deploy.yaml"
-'4  17  28  ~/k8s/user-deploy.yaml
-|4,52,17,28,1769750542,"~/k8s/user-deploy.yaml"
-'5  17  28  ~/k8s/product-deploy.yaml
-|4,53,17,28,1769750519,"~/k8s/product-deploy.yaml"
-'6  17  28  ~/k8s/product-deploy.yaml
-|4,54,17,28,1769750519,"~/k8s/product-deploy.yaml"
-'7  16  8  ~/k8s/product-deploy.yaml
-|4,55,16,8,1769750500,"~/k8s/product-deploy.yaml"
-'8  16  8  ~/k8s/product-deploy.yaml
-|4,56,16,8,1769750500,"~/k8s/product-deploy.yaml"
-'9  16  8  ~/k8s/product-deploy.yaml
-|4,57,16,8,1769750500,"~/k8s/product-deploy.yaml"
+'0  32  0  ~/Jenkinsfile
+|4,48,32,0,1769754165,"~/Jenkinsfile"
+'1  6  0  ~/product-service/Dockerfile
+|4,49,6,0,1769754085,"~/product-service/Dockerfile"
+'2  6  0  ~/user-service/Dockerfile
+|4,50,6,0,1769754049,"~/user-service/Dockerfile"
+'3  1  0  ~/Jenkinsfile
+|4,51,1,0,1769752570,"~/Jenkinsfile"
+'4  1  0  ~/Jenkinsfile
+|4,52,1,0,1769752570,"~/Jenkinsfile"
+'5  20  0  ~/k8s/product-deploy.yaml
+|4,53,20,0,1769750683,"~/k8s/product-deploy.yaml"
+'6  12  0  ~/k8s/user-deploy.yaml
+|4,54,12,0,1769750643,"~/k8s/user-deploy.yaml"
+'7  1  153  ~/k8s/user-deploy.yaml
+|4,55,1,153,1769750542,"~/k8s/user-deploy.yaml"
+'8  17  28  ~/k8s/user-deploy.yaml
+|4,56,17,28,1769750542,"~/k8s/user-deploy.yaml"
+'9  17  28  ~/k8s/product-deploy.yaml
+|4,57,17,28,1769750519,"~/k8s/product-deploy.yaml"
 
 # Jumplist (newest first):
+-'  32  0  ~/Jenkinsfile
+|4,39,32,0,1769754165,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1769754132,"~/Jenkinsfile"
+-'  6  0  ~/product-service/Dockerfile
+|4,39,6,0,1769754085,"~/product-service/Dockerfile"
+-'  6  0  ~/product-service/Dockerfile
+|4,39,6,0,1769754085,"~/product-service/Dockerfile"
+-'  7  0  ~/product-service/Dockerfile
+|4,39,7,0,1769754068,"~/product-service/Dockerfile"
+-'  7  0  ~/product-service/Dockerfile
+|4,39,7,0,1769754068,"~/product-service/Dockerfile"
+-'  6  0  ~/user-service/Dockerfile
+|4,39,6,0,1769754049,"~/user-service/Dockerfile"
+-'  6  0  ~/user-service/Dockerfile
+|4,39,6,0,1769754049,"~/user-service/Dockerfile"
+-'  6  0  ~/user-service/Dockerfile
+|4,39,6,0,1769754049,"~/user-service/Dockerfile"
+-'  6  0  ~/user-service/Dockerfile
+|4,39,6,0,1769754049,"~/user-service/Dockerfile"
+-'  1  84  ~/user-service/Dockerfile
+|4,39,1,84,1769754028,"~/user-service/Dockerfile"
+-'  1  84  ~/user-service/Dockerfile
+|4,39,1,84,1769754028,"~/user-service/Dockerfile"
+-'  1  84  ~/user-service/Dockerfile
+|4,39,1,84,1769754028,"~/user-service/Dockerfile"
+-'  1  84  ~/user-service/Dockerfile
+|4,39,1,84,1769754028,"~/user-service/Dockerfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1769752570,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1769752570,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1769752570,"~/Jenkinsfile"
 -'  1  0  ~/Jenkinsfile
 |4,39,1,0,1769752570,"~/Jenkinsfile"
 -'  20  0  ~/k8s/product-deploy.yaml
 |4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
 -'  20  0  ~/k8s/product-deploy.yaml
 |4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  20  0  ~/k8s/product-deploy.yaml
+|4,39,20,0,1769750683,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
+-'  17  28  ~/k8s/product-deploy.yaml
+|4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
 -'  17  28  ~/k8s/product-deploy.yaml
 |4,39,17,28,1769750671,"~/k8s/product-deploy.yaml"
 -'  17  28  ~/k8s/product-deploy.yaml
@@ -71,6 +161,62 @@
 |4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
 -'  12  0  ~/k8s/user-deploy.yaml
 |4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
+-'  12  0  ~/k8s/user-deploy.yaml
+|4,39,12,0,1769750643,"~/k8s/user-deploy.yaml"
 -'  1  153  ~/k8s/user-deploy.yaml
 |4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
 -'  1  153  ~/k8s/user-deploy.yaml
@@ -79,189 +225,115 @@
 |4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
 -'  1  153  ~/k8s/user-deploy.yaml
 |4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
--'  17  28  ~/k8s/user-deploy.yaml
-|4,39,17,28,1769750542,"~/k8s/user-deploy.yaml"
--'  17  28  ~/k8s/user-deploy.yaml
-|4,39,17,28,1769750542,"~/k8s/user-deploy.yaml"
--'  17  28  ~/k8s/user-deploy.yaml
-|4,39,17,28,1769750542,"~/k8s/user-deploy.yaml"
--'  17  28  ~/k8s/user-deploy.yaml
-|4,39,17,28,1769750542,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750527,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750527,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750527,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750527,"~/k8s/user-deploy.yaml"
--'  17  28  ~/k8s/product-deploy.yaml
-|4,39,17,28,1769750519,"~/k8s/product-deploy.yaml"
--'  17  28  ~/k8s/product-deploy.yaml
-|4,39,17,28,1769750519,"~/k8s/product-deploy.yaml"
--'  17  28  ~/k8s/product-deploy.yaml
-|4,39,17,28,1769750519,"~/k8s/product-deploy.yaml"
--'  17  28  ~/k8s/product-deploy.yaml
-|4,39,17,28,1769750519,"~/k8s/product-deploy.yaml"
--'  17  28  ~/k8s/product-deploy.yaml
-|4,39,17,28,1769750519,"~/k8s/product-deploy.yaml"
--'  17  28  ~/k8s/product-deploy.yaml
-|4,39,17,28,1769750519,"~/k8s/product-deploy.yaml"
--'  17  28  ~/k8s/product-deploy.yaml
-|4,39,17,28,1769750519,"~/k8s/product-deploy.yaml"
--'  17  28  ~/k8s/product-deploy.yaml
-|4,39,17,28,1769750519,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750502,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750502,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750502,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750502,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750502,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750502,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750502,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750502,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750502,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750502,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750500,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750500,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750500,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750500,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750500,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750500,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750500,"~/k8s/product-deploy.yaml"
--'  16  8  ~/k8s/product-deploy.yaml
-|4,39,16,8,1769750500,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  18  0  ~/k8s/product-deploy.yaml
-|4,39,18,0,1769750482,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/user-deploy.yaml
-|4,39,20,0,1769750436,"~/k8s/user-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
--'  20  0  ~/k8s/product-deploy.yaml
-|4,39,20,0,1769750369,"~/k8s/product-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
+-'  1  153  ~/k8s/user-deploy.yaml
+|4,39,1,153,1769750611,"~/k8s/user-deploy.yaml"
 
 # History of marks within files (newest to oldest):
 
 > ~/Jenkinsfile
-	*	1769752568	0
-	"	1	0
+	*	1769754162	0
+	"	32	0
 	^	32	0
 	.	31	1
+	+	1	10
+	+	1	588
+	+	1	1
+	+	1	554
+	+	1	1
+	+	1	541
+	+	1	1
+	+	1	506
+	+	1	1
+	+	1	501
+	+	1	1
+	+	1	494
+	+	1	1
+	+	1	439
+	+	1	1
+	+	1	387
+	+	1	1
+	+	1	374
+	+	1	1
+	+	1	348
+	+	1	1
+	+	1	343
+	+	1	1
+	+	1	336
+	+	1	1
+	+	1	260
+	+	1	1
+	+	1	190
+	+	1	1
+	+	1	177
+	+	1	1
+	+	1	150
+	+	1	1
+	+	1	145
+	+	1	1
+	+	1	138
+	+	1	1
+	+	1	67
+	+	1	1
+	+	1	54
+	+	1	1
+	+	1	31
+	+	1	1
+	+	1	21
+	+	1	1
+	+	1	10
+	+	1	1
+	+	1	0
+	+	33	0
+	+	1	9
+	+	33	0
+	+	1	6
+	+	33	0
+	+	1	1
+	+	33	0
+	+	1	10
 	+	31	1
+
+> ~/product-service/Dockerfile
+	*	1769754082	0
+	"	6	0
+	^	6	0
+	.	5	23
+	+	1	61
+	+	5	23
+
+> ~/user-service/Dockerfile
+	*	1769754047	0
+	"	6	0
+	^	6	0
+	.	5	23
+	+	1	84
+	+	5	23
 
 > ~/k8s/product-deploy.yaml
 	*	1769750681	0
@@ -320,26 +392,12 @@
 	+	1	19
 	+	19	29
 
-> ~/product-service/Dockerfile
-	*	1769749038	0
-	"	6	0
-	^	6	0
-	.	5	23
-	+	5	23
-
 > ~/product-service/app.py
 	*	1769749006	0
 	"	9	0
 	^	9	0
 	.	8	34
 	+	8	34
-
-> ~/user-service/Dockerfile
-	*	1769748932	0
-	"	6	0
-	^	6	0
-	.	5	23
-	+	5	23
 
 > ~/user-service/app.py
 	*	1769748887	0
